@@ -47,7 +47,7 @@ if(NOT DEFINED shared_library)
     set(shared_library OFF CACHE BOOL "Build shared library")
 endif()
 
-#set(with_central_widget TRUE) #Build with QGoodCentralWidget
+set(with_central_widget TRUE) #Build with QGoodCentralWidget
 
 if(NOT DEFINED with_central_widget)
     set(with_central_widget OFF CACHE BOOL "Build with QGoodCentralWidget")
